@@ -1,8 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "pf8qli240yBwwGZ9h8SfrvD7CtPd6Dn/5URCKiZ1bs8MYoL9l39TPTH8XkAs9bisnHqZDo+YjUd2NyWGS8mPXA==",
+  "dgSpecHash": "W2WBnuZ7R7AHRLCtpBHaXWj7GFNX0G+sDIyINe3tfAExaAFJTqst/SOO3VCDRmNy3CpboArU0pYvn0xLrJSNgg==",
   "success": true,
   "projectFilePath": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/DragAndDrop.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.authorization/7.0.16/microsoft.aspnetcore.authorization.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.components/7.0.16/microsoft.aspnetcore.components.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.16/microsoft.aspnetcore.components.analyzers.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.components.forms/7.0.16/microsoft.aspnetcore.components.forms.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.components.web/7.0.16/microsoft.aspnetcore.components.web.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.metadata/7.0.16/microsoft.aspnetcore.metadata.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.extensions.localization/7.0.16/microsoft.extensions.localization.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.extensions.localization.abstractions/7.0.16/microsoft.extensions.localization.abstractions.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.extensions.options/7.0.1/microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/microsoft.jsinterop/7.0.16/microsoft.jsinterop.7.0.16.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/mudblazor/6.17.0/mudblazor.6.17.0.nupkg.sha512",
+    "/Users/dominikrettig/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
