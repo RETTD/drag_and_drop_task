@@ -54,6 +54,24 @@ a, .btn-link {
     color: red;
 }
 
+.first-container { 
+    width: 698px;
+    height: 900px;
+}
+
+@media (max-width: 768px) {
+    .first-container {
+        width: 80%;
+    }
+}
+@media (max-width: 1024px) {
+    .first-container {
+        width: 350px;
+    }
+}
+
+
+
 
 #blazor-error-ui {
     background: lightyellow;
