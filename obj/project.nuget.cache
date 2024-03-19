@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "W2WBnuZ7R7AHRLCtpBHaXWj7GFNX0G+sDIyINe3tfAExaAFJTqst/SOO3VCDRmNy3CpboArU0pYvn0xLrJSNgg==",
+  "dgSpecHash": "iGmK4uQH/te6w+IE1LxTNSZCFlzy+a9HqC1aDT5qouy6X1BE9g9sEo7C7c+KPn4ns7huNtq0jMH96GtcIQz6Ag==",
   "success": true,
   "projectFilePath": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/DragAndDrop.csproj",
   "expectedPackageFiles": [
+    "/Users/dominikrettig/.nuget/packages/blazor.contextmenu/2.0.0/blazor.contextmenu.2.0.0.nupkg.sha512",
     "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.authorization/7.0.16/microsoft.aspnetcore.authorization.7.0.16.nupkg.sha512",
     "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.components/7.0.16/microsoft.aspnetcore.components.7.0.16.nupkg.sha512",
     "/Users/dominikrettig/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.16/microsoft.aspnetcore.components.analyzers.7.0.16.nupkg.sha512",

@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Blazor.ContextMenu/2.0.0": {
+        "type": "package",
+        "build": {
+          "buildTransitive/Blazor.ContextMenu.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazor.ContextMenu.props": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.16": {
         "type": "package",
         "dependencies": {
@@ -267,6 +276,26 @@
     }
   },
   "libraries": {
+    "Blazor.ContextMenu/2.0.0": {
+      "sha512": "9cjLBzcHL3+oMMIhed5pP8nDx8OCiNvE8DolaQ02opZXJZxzXsnYXbzNL+ghPYBar/bd7p6rRmYUP8bsvBkrmg==",
+      "type": "package",
+      "path": "blazor.contextmenu/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazor.contextmenu.2.0.0.nupkg.sha512",
+        "blazor.contextmenu.nuspec",
+        "build/Blazor.ContextMenu.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazor.ContextMenu.props",
+        "buildTransitive/Blazor.ContextMenu.props",
+        "lib/net8.0/BlazorContextMenu.dll",
+        "staticwebassets/blazorContextMenu.css",
+        "staticwebassets/blazorContextMenu.js",
+        "staticwebassets/blazorContextMenu.min.css",
+        "staticwebassets/blazorContextMenu.min.js"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/7.0.16": {
       "sha512": "O1L9W6r3lrl8FLhMQJwBv2bxhlrdCCeOruiO/6Aib3N8A7zc0xhISOXIJQZmM4I5XCBoNCQ6rRnKdYyVmgAiNg==",
       "type": "package",
@@ -658,6 +687,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Blazor.ContextMenu >= 2.0.0",
       "MudBlazor >= 6.17.0"
     ]
   },
@@ -704,6 +734,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Blazor.ContextMenu": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "MudBlazor": {
             "target": "Package",
             "version": "[6.17.0, )"

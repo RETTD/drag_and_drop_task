@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Blazor.ContextMenu": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "MudBlazor": {
               "target": "Package",
               "version": "[6.17.0, )"

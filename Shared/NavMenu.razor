@@ -1,44 +1,18 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">DragAndDrop</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+﻿<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <a href='/'>
+        <div
+            style="margin-top: 21px; background-color: white; width: 46px; height: 46px; display: flex; justify-content: center; align-items: center; border: 0px solid black; border-radius: 4px;">
+            <img src="img/logo.svg" alt="logo" width="30" height="30" />
+        </div>
+    </a>
+    <a href="/users">
+        <div
+            style="margin-top: 42px; background-color: white; width: 46px; height: 46px; display: flex; justify-content: center; align-items: center; border: 0px solid black; border-radius: 4px;">
+            <img src="img/star_logo.svg" alt="logo" width="30" height="30" />
+        </div>
+    </a>
+    <div
+        style="margin-top: 21px; background-color: white; width: 46px; height: 46px; display: flex; justify-content: center; align-items: center; border: 0px solid black; border-radius: 4px;">
+        <img src="img/star_logo.svg" alt="logo" width="30" height="30" />
     </div>
 </div>
-
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="users">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Drag and drop
-            </NavLink>
-        </div>
-    </nav>
-</div>
-
-@code {
-    private bool collapseNavMenu = true;
-
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
-    }
-}

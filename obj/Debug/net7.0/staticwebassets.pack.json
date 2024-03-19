@@ -57,6 +57,54 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/group1.svg",
+      "PackagePath": "staticwebassets/img/group1.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/group2.svg",
+      "PackagePath": "staticwebassets/img/group2.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/group3.svg",
+      "PackagePath": "staticwebassets/img/group3.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/group4.svg",
+      "PackagePath": "staticwebassets/img/group4.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/group5.svg",
+      "PackagePath": "staticwebassets/img/group5.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/group_users.svg",
+      "PackagePath": "staticwebassets/img/group_users.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/logo.svg",
+      "PackagePath": "staticwebassets/img/logo.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/star_logo.svg",
+      "PackagePath": "staticwebassets/img/star_logo.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/user1.png",
+      "PackagePath": "staticwebassets/img/user1.png"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/user2.png",
+      "PackagePath": "staticwebassets/img/user2.png"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/user3.png",
+      "PackagePath": "staticwebassets/img/user3.png"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/user4.png",
+      "PackagePath": "staticwebassets/img/user4.png"
+    },
+    {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.DragAndDrop.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
