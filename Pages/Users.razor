@@ -164,31 +164,31 @@
     {
         if (dropzoneIdentifier == "Group 1")
         {
-            return "img/group1.svg"; // Przykładowy href dla grupy 1
+            return "img/group1.svg";
         }
         else if (dropzoneIdentifier == "Group 2")
         {
-            return "img/group2.svg"; // Przykładowy href dla grupy 2
+            return "img/group2.svg"; 
         }
         else if (dropzoneIdentifier == "Group 3")
         {
-            return "img/group3.svg"; // Przykładowy href dla grupy 3
+            return "img/group3.svg"; 
         }
         else if (dropzoneIdentifier == "Group 4")
         {
-            return "img/group4.svg"; // Przykładowy href dla grupy 4
+            return "img/group4.svg"; 
         }
         else if (dropzoneIdentifier == "Group 5")
         {
-            return "img/group5.svg"; // Przykładowy href dla grupy 5
+            return "img/group5.svg"; 
         }
         else if (dropzoneIdentifier == "Users")
         {
-            return "img/group_users.svg"; // Przykładowy href dla grupy Users
+            return "img/group_users.svg";
         }
         else
         {
-            return "img/group_users.svg"; // Domyślny href
+            return "img/group_users.svg";
         }
     }
     private List<Groups> _sections = new()
@@ -243,8 +243,8 @@ new UserItem("Jan Nowak", "Users", "Warszawa", "img/group_users.svg", "img/user4
 
 };
     // LOG
-    protected override async void OnInitialized()
+    @* protected override async void OnInitialized()
     {
         await JS.InvokeVoidAsync("console.log", currentGroup);
-    }
+    } *@
 }

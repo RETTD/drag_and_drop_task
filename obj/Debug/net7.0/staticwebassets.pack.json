@@ -81,6 +81,14 @@
       "PackagePath": "staticwebassets/img/group_users.svg"
     },
     {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/localization-icon-black.svg",
+      "PackagePath": "staticwebassets/img/localization-icon-black.svg"
+    },
+    {
+      "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/localization-icon-white.svg",
+      "PackagePath": "staticwebassets/img/localization-icon-white.svg"
+    },
+    {
       "Id": "/Users/dominikrettig/Projects/blazer/tabel/DragAndDrop/wwwroot/img/logo.svg",
       "PackagePath": "staticwebassets/img/logo.svg"
     },
